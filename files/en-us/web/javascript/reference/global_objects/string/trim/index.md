@@ -29,7 +29,7 @@ trim()
 
 A new string representing `str` stripped of whitespace from both its beginning and end.
 
-If neither the beginning or end of `str` has any whitespace, a new string is still returned (essentially a copy of `str`), with no exception being thrown.
+If neither the beginning or end of `str` has any whitespace, a new string is still returned (essentially a copy of `str`), with no exception being thrown. If the string is entirely composed of whitespaces, an empty string is returned.
 
 To return a new string with whitespace trimmed from just one end, use {{jsxref("String.prototype.trimStart()", "trimStart()")}} or {{jsxref("String.prototype.trimEnd()", "trimEnd()")}}.
 
